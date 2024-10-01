@@ -1,0 +1,92 @@
+body .container{
+    background-color: aliceblue;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 30px;
+    border-radius: 50px;
+    animation: abc 2s infinite;
+}
+@keyframes ab{
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: yellowgreen;
+    }
+    40%{
+        background-color: pink;
+    }
+    75%{
+        background-color: gray;
+    }
+    90%{
+        background-color: green;
+    }
+}
+.dot1{
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+    animation: abc1 0.5s infinite;
+}
+@keyframes abc1{
+    0%{
+        background-color: red;
+        transform: scale(1);
+    }
+    50%{
+        background-color: aqua;
+        transform: scale(1.1);
+    }
+    80%{
+        background-color: green;
+        transform: scale(1.2);
+    }
+}
+.dot2{
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+    animation: abc2 0.5s infinite;
+}
+@keyframes abc2{
+    0%{
+        background-color: aqua;
+        transform: scale(1.2);
+    }
+    50%{
+        background-color: green;
+        transform: scale(1);
+    }
+    80%{
+        background-color: red;
+        transform: scale(1.1);
+    }
+}
+.dot3{
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    animation: abc3 0.5s infinite;
+}
+@keyframes abc3{
+    0%{
+        background-color: green;
+        transform: scale(1.1);
+    }
+    50%{
+        background-color: red;
+        transform: scale(1.2);
+    }
+    80%{
+        background-color: aqua;
+        transform: scale(1);
+    }
+}
